@@ -1,0 +1,75 @@
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.red {
+	background-color: #e04e5a;
+}
+.green {
+	background-color: #4ee077;
+}
+.blue {
+	width: 940px;
+	margin: 0 auto;
+	background-color: #88d8fd;
+}
+.yellow {
+	background-color: #e0cd4e;
+}
+.purple {
+	background-color: #8f4ee0;
+}
+.small {
+	float: left;
+	width: 60px;
+	height: 63px;
+	margin: 0 20px 10px 0px;
+}
+.small:last-child {
+	float: right;
+	margin: 0px;
+}
+.medium {
+	float: left;
+	width: 138px;
+	height: 103px;
+	margin: 55px 22px 55px 0px;
+}
+.medium:last-child {
+	margin: 55px 0px 55px 2px;
+}
+.inner {
+	margin: 10px;
+}
+.large {
+	float: left;
+	width: 138px;
+	height: 103px;
+	margin: 10px 10px 10px 10px;
+}
+.largest {
+	float: right;
+	width: 116px;
+	height: 226px;
+	margin: 10px 10px 10px 0px;
+}
+.container:nth-child(2) {
+	margin: 10px auto;
+}
+footer {
+    position: fixed;
+    width: 940px;
+    height: 23px;
+    margin-left: -470px;
+    left: 50%;
+    bottom: 0;
+}
+aside {
+	position: fixed;
+	width: 17px;
+	height: 165px;
+	margin-bottom: -82px;
+	left: 0px;
+	bottom: 50%
+}
